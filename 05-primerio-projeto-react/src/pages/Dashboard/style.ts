@@ -33,11 +33,11 @@ export const Form = Styled.form<FormProps>`
 
         ${(props) => (props.hasError && css`
             border-color: #c53030;
-        `)}
+        `)};
 
         &::placeholder {
             color: #a8a8b3;
-        }
+        };
     }
 
     button {
